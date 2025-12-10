@@ -564,40 +564,94 @@ _Repositories that are no longer accessible or have been removed._
 Applet for security of Petrol rationing, including design documents, Radboud University, Hardware Security course, JavaCard project
 
 ## Library code (code which is expected to be used as part of other code)
+- [JavaCard Connect](https://github.com/nightcode/jcconnect)    ![stars](https://img.shields.io/github/stars/nightcode/jcconnect.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/nightcode/jcconnect.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/nightcode/jcconnect.svg)  <br>
+JavaCard Connect is a framework which provides an implementation of a secure communication protocol in conformance with the Global Platform Card Specification. It allows to establish a secure channel between an off-card entity and a card.
 
-- [ACORN, AEGIS, ASCON, CLOC, and MORUS AEAD ciphers](https://github.com/palkrajesh/AEonJC)    ![stars](https://img.shields.io/github/stars/palkrajesh/AEonJC.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/palkrajesh/AEonJC.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/palkrajesh/AEonJC.svg)  <br>
-Optimalized implementation of 5 selected candidates for authenticated encryption from CAESAR competition
-
-- [AES, OAEP, SHA2-384 and SHA2-512 JC reimplementation,](https://github.com/petrs/JCSWAlgs)    ![stars](https://img.shields.io/github/stars/petrs/JCSWAlgs.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/petrs/JCSWAlgs.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/petrs/JCSWAlgs.svg) 
+- [JCEd25519](https://github.com/dufkan/JCEd25519)    ![stars](https://img.shields.io/github/stars/dufkan/JCEd25519.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/dufkan/JCEd25519.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/dufkan/JCEd25519.svg) 
   <br>
-The Suite of software reimplementations of selected cryptographic algorithms potentially missing on your smartcard with JavaCard platform. Optimized for speed and small memory footprint.
+JCEd25519 is a JavaCard implementation of Ed25519 signing using public JavaCard API. The implementation uses (modified) JCMathLib library to perform necessary operations like EC and BigInt arithmetic. And in case SHA512 is not supported by given JavaCard, its software re-implementation is used.
 
-- [Audit TTP SmartCard-Based ElGamal Cryptosystem](https://github.com/AuditURV/Audit)    ![stars](https://img.shields.io/github/stars/AuditURV/Audit.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/AuditURV/Audit.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/AuditURV/Audit.svg) 
+- [Secure Element Evaluation Kit for the Android platform](https://github.com/seek-for-android/pool)    ![stars](https://img.shields.io/github/stars/seek-for-android/pool.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/seek-for-android/pool.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/seek-for-android/pool.svg) 
   <br>
-TTP SmartCard-Based ElGamal Cryptosystem Using Threshold Scheme for Electronic Elections. EU Project.
+SmartCard API for Android. The SmartCard API adds the necessary modules and API’s to the Android platform. It offers flexible access to secure elements, allowing a secure application solution to make use of any secure form factor, such as a USIM card, a secure µSD card, an embedded secure element.
 
-- [Curve25519 jc implementation](https://github.com/david-oswald/jc_curve25519)    ![stars](https://img.shields.io/github/stars/david-oswald/jc_curve25519.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/david-oswald/jc_curve25519.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/david-oswald/jc_curve25519.svg) 
-  <br>
-Javacard implementation of Curve25519, JavaCard 3.0.1 or higher (currently developed on J2D081)
+- [JCMathLib - ECPoint library](https://github.com/OpenCryptoProject/JCMathLib)    ![stars](https://img.shields.io/github/stars/OpenCryptoProject/JCMathLib.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/OpenCryptoProject/JCMathLib.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/OpenCryptoProject/JCMathLib.svg)   <br>
+Provides software re-implementation of low-level operations like ECPoint or BigInteger without any use of proprietary API.
 
-- [EC-SRP-5 password-authenticated secure channel](https://github.com/mobilesec/secure-channel-ec-srp-applet)    ![stars](https://img.shields.io/github/stars/mobilesec/secure-channel-ec-srp-applet.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/mobilesec/secure-channel-ec-srp-applet.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/mobilesec/secure-channel-ec-srp-applet.svg)   <br>
-An implementation of the elliptic curve variant of the Secure Remote Password (SRP-5) password-authenticated secure channel protocol from IEEE Std 1363.2-2008 for secure channel to secure elements/smartcards. Utilizes NXP proprietary API.
+- [SHA3, PBKDF2, TWINE, Zorro, ACORN, AEGIS, ASCON, CLOC, and MORUS AEAD ciphers implementation](https://github.com/crocs-muni/OptimizedJCAlgs)    ![stars](https://img.shields.io/github/stars/crocs-muni/OptimizedJCAlgs.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/crocs-muni/OptimizedJCAlgs.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/crocs-muni/OptimizedJCAlgs.svg)  <br>
+Optimalized implementation of AEGIS, ACORN, ASCON, CLOC, MORUS (Authenticated Encryption), TWINE, Zorro (Block Ciphers), SHA-3 (Message Digest) and PBKDF2 (Key derivation) 
 
-- [ElGamal-based Threshold Scheme for Electronic Elections](https://github.com/CRISES-URV/eVerification-2)    ![stars](https://img.shields.io/github/stars/CRISES-URV/eVerification-2.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/CRISES-URV/eVerification-2.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/CRISES-URV/eVerification-2.svg) 
-  <br>
-TTP SmartCard-Based ElGamal Cryptosystem Using Threshold Scheme for Electronic Elections. EU Project CRISES group has studied the feasibility of developing ElGamal cryptosystem and Shamir’s secret sharing scheme into JavaCards, whose API gives no support for it. (probably significant applet).
-
-- [Export files for ETSI/3GPP APIs](https://github.com/OpenJavaCard/etsi-exports)    ![stars](https://img.shields.io/github/stars/OpenJavaCard/etsi-exports.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/OpenJavaCard/etsi-exports.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/OpenJavaCard/etsi-exports.svg) 
-  <br>
-ETSI/3GPP standards specify various JavaCard APIs related to SIM cards. This repository contains the export files for many of these APIs. It has been created as a dependency submodule for packages using these APIs.
+- [JC-SSRK: Sharded Secret Key Reconstruction (SSKR)](https://github.com/proxyco/jc-sskr)  ![stars](https://img.shields.io/github/stars/proxyco/jc-sskr.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/proxyco/jc-sskr.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/proxyco/jc-sskr.svg)   <br>
+An implementation of Sharded Secret Key Reconstruction (SSKR) for JavaCard environments.
 
 - [GlobalPlatform SCP11B Secure Channel protocol ](https://github.com/ThothTrustCom/SCP11B)    ![stars](https://img.shields.io/github/stars/ThothTrustCom/SCP11B.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/ThothTrustCom/SCP11B.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/ThothTrustCom/SCP11B.svg) 
   <br>
 Implementation of GlobalPlatform SCP11B Secure Channel protocol and Java Test Client
 
+- [Curve25519 jc implementation](https://github.com/david-oswald/jc_curve25519)    ![stars](https://img.shields.io/github/stars/david-oswald/jc_curve25519.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/david-oswald/jc_curve25519.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/david-oswald/jc_curve25519.svg) 
+  <br>
+Javacard implementation of Curve25519, JavaCard 3.0.1 or higher (currently developed on J2D081)
+
+- [SCP10 secure channel and attack](https://github.com/ddealmei/SCP10-attack)    ![stars](https://img.shields.io/github/stars/ddealmei/SCP10-attack.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/ddealmei/SCP10-attack.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/ddealmei/SCP10-attack.svg)   <br>
+Implementation of GlobalPlatform SCP'10 secure channel protocol, PoC attacks against it and fixed version. 
+
+- [Export files for ETSI/3GPP APIs](https://github.com/OpenJavaCard/etsi-exports)    ![stars](https://img.shields.io/github/stars/OpenJavaCard/etsi-exports.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/OpenJavaCard/etsi-exports.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/OpenJavaCard/etsi-exports.svg) 
+  <br>
+ETSI/3GPP standards specify various JavaCard APIs related to SIM cards. This repository contains the export files for many of these APIs. It has been created as a dependency submodule for packages using these APIs.
+
+- [LibESE Android verified boot](https://github.com/TinkerBoard2-Android/external-libese)    ![stars](https://img.shields.io/github/stars/TinkerBoard2-Android/external-libese.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/TinkerBoard2-Android/external-libese.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/TinkerBoard2-Android/external-libese.svg)   <br>
+Minimal transport wrapper for communicating with embedded secure elements on Android
+
+- [ykneo-curves](https://github.com/Yubico/ykneo-curves)    ![stars](https://img.shields.io/github/stars/Yubico/ykneo-curves.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/Yubico/ykneo-curves.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/Yubico/ykneo-curves.svg) 
+  <br>
+This is an applet demonstrating several curves for use in YubiKey NEO.
+
+
+- [JavaCard ChaCha20 implementation](https://github.com/thotheolh/jcChaCha2032)    ![stars](https://img.shields.io/github/stars/thotheolh/jcChaCha2032.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/thotheolh/jcChaCha2032.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/thotheolh/jcChaCha2032.svg)  <br>
+32-bit JavaCard based ChaCha20 stream cipher optimized for JavaCard environment with 32-bit Integer support
+
+- [ACORN, AEGIS, ASCON, CLOC, and MORUS AEAD ciphers](https://github.com/palkrajesh/AEonJC)    ![stars](https://img.shields.io/github/stars/palkrajesh/AEonJC.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/palkrajesh/AEonJC.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/palkrajesh/AEonJC.svg)  <br>
+Optimalized implementation of 5 selected candidates for authenticated encryption from CAESAR competition
+
+- [JavaCardLightweightCiphers](https://github.com/CarpAlberto/JavaCardLightweightCiphers)  ![stars](https://img.shields.io/github/stars/CarpAlberto/JavaCardLightweightCiphers.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/CarpAlberto/JavaCardLightweightCiphers.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/CarpAlberto/JavaCardLightweightCiphers.svg)   <br>
+Implementations JavaCard lightweight ciphers implementations (SHA3, UProve, Twine, ZorroCipher)
+
 - [Hashchain applet](https://github.com/raminarmanfar/Java-smart-card-cryptographic-protocols)    ![stars](https://img.shields.io/github/stars/raminarmanfar/Java-smart-card-cryptographic-protocols.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/raminarmanfar/Java-smart-card-cryptographic-protocols.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/raminarmanfar/Java-smart-card-cryptographic-protocols.svg) 
   <br>
 Implementation of some hash chain
+
+- [AES, OAEP, SHA2-384 and SHA2-512 JC reimplementation,](https://github.com/petrs/JCSWAlgs)    ![stars](https://img.shields.io/github/stars/petrs/JCSWAlgs.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/petrs/JCSWAlgs.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/petrs/JCSWAlgs.svg) 
+  <br>
+The Suite of software reimplementations of selected cryptographic algorithms potentially missing on your smartcard with JavaCard platform. Optimized for speed and small memory footprint.
+
+- [Primitives for JavaCard](https://github.com/albertocarp/Primitives_SmartCard)    ![stars](https://img.shields.io/github/stars/albertocarp/Primitives_SmartCard.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/albertocarp/Primitives_SmartCard.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/albertocarp/Primitives_SmartCard.svg)   <br>
+JBigInteger, JCMath, SHA3, UProve...
+
+- [Audit TTP SmartCard-Based ElGamal Cryptosystem](https://github.com/AuditURV/Audit)    ![stars](https://img.shields.io/github/stars/AuditURV/Audit.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/AuditURV/Audit.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/AuditURV/Audit.svg) 
+  <br>
+TTP SmartCard-Based ElGamal Cryptosystem Using Threshold Scheme for Electronic Elections. EU Project.
+
+- [Sec2 cloud security project](https://github.com/RUB-NDS/Sec2)    ![stars](https://img.shields.io/github/stars/RUB-NDS/Sec2.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/RUB-NDS/Sec2.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/RUB-NDS/Sec2.svg) 
+  <br>
+message-level security must at least be applied to protect those data during and after the storing process. Novel solution for secure data storage in the cloud. It presents a security concept allowing each client to encrypt outgoing data on one’s mobile device and share it among a defined user group while using a seamless service provision. J. Somorovsky, research proof of the concept
+
+- [Protocol for Lightweight Authentication of Identity (PLAID)](https://github.com/martinpaljak/AppletPlayground/tree/master/src/plaid804) (**GitHub**) _[last commit 2015]_
+  <br>
+Protocol for Lightweight Authentication of Identity [PLAID](https://www.humanservices.gov.au/corporate/publications-and-resources/protocol-lightweight-authentication-identity-plaid/plaid-reference-implementation-department-human-services), Australian Government
+
+- [TelephonyManager Carrier Privilege granting](https://github.com/sabtmoha/carrier_privilege)    ![stars](https://img.shields.io/github/stars/sabtmoha/carrier_privilege.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/sabtmoha/carrier_privilege.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/sabtmoha/carrier_privilege.svg) 
+  <br>
+Since Android 5.1, applications are able to communicate with UICC using the class TelephonyManager. However, the concerned functions require a special privilege, that is the carrier privilege. This JavaCard applet grants this privilege to the app whose signature is included inside the applet (the variable SHA256_SIGN)
+
+- [SRP-6a password-authenticated secure channel](https://github.com/mobilesec/secure-channel-srp6a-applet)    ![stars](https://img.shields.io/github/stars/mobilesec/secure-channel-srp6a-applet.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/mobilesec/secure-channel-srp6a-applet.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/mobilesec/secure-channel-srp6a-applet.svg)  <br>
+Java Card applet for SRP-6a password-authenticated secure channel to secure elements/smartcards. This Java Card applet is an implementation of the Secure Remote Password (SRP-6a) password-authenticated secure channel protocol by Wu [1]. In combination with an implementation of an off-card application, such as an Android application using our SRP-6A Android Library, you can establish a secure communication channel that is mutually authenticated with a PIN or password. 
+
+- [EC-SRP-5 password-authenticated secure channel](https://github.com/mobilesec/secure-channel-ec-srp-applet)    ![stars](https://img.shields.io/github/stars/mobilesec/secure-channel-ec-srp-applet.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/mobilesec/secure-channel-ec-srp-applet.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/mobilesec/secure-channel-ec-srp-applet.svg)   <br>
+An implementation of the elliptic curve variant of the Secure Remote Password (SRP-5) password-authenticated secure channel protocol from IEEE Std 1363.2-2008 for secure channel to secure elements/smartcards. Utilizes NXP proprietary API.
+
+- [OPACITY auth protocol for JC](https://github.com/shevelevsergey/opacity-for-smartcard)    ![stars](https://img.shields.io/github/stars/shevelevsergey/opacity-for-smartcard.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/shevelevsergey/opacity-for-smartcard.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/shevelevsergey/opacity-for-smartcard.svg) 
+  <br>
+This project is designed to authenticate users to the Web service using contactless smart cards. As an authentication protocol was chosen protocol OPACITY. This protocol has been specifically designed for contactless payments and it is officially registered now as an authentication protocol ISO/IEC 24727-6.
 
 - [HMAC and CMAC computation](https://github.com/mll11/jcard/tree/master/TestMAC) (**GitHub**) _[last commit 2014]_ 
   <br>
@@ -607,74 +661,19 @@ This Java Card applet support APDUs to test HMAC (SHA-1, SHA-256) and CMAC (AES-
   <br>
 The main goal of this framework is to synchronize Java Card 2 applets through the exchange of ciphered APDUs. The current state of the framework is lacking in many ways and requires more works to be fully functional. However it can serve as a proof of concept for the synchronization of applet data in a secure fashion in a pure Java Card 2 setting (i.e.: without tweaking the Java Card VM).
 
-- [JavaCard ChaCha20 implementation](https://github.com/thotheolh/jcChaCha2032)    ![stars](https://img.shields.io/github/stars/thotheolh/jcChaCha2032.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/thotheolh/jcChaCha2032.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/thotheolh/jcChaCha2032.svg)  <br>
-32-bit JavaCard based ChaCha20 stream cipher optimized for JavaCard environment with 32-bit Integer support
-
-- [JavaCard Connect](https://github.com/nightcode/jcconnect)    ![stars](https://img.shields.io/github/stars/nightcode/jcconnect.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/nightcode/jcconnect.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/nightcode/jcconnect.svg)  <br>
-JavaCard Connect is a framework which provides an implementation of a secure communication protocol in conformance with the Global Platform Card Specification. It allows to establish a secure channel between an off-card entity and a card.
-
-- [JCEd25519](https://github.com/dufkan/JCEd25519)    ![stars](https://img.shields.io/github/stars/dufkan/JCEd25519.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/dufkan/JCEd25519.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/dufkan/JCEd25519.svg) 
-  <br>
-JCEd25519 is a JavaCard implementation of Ed25519 signing using public JavaCard API. The implementation uses (modified) JCMathLib library to perform necessary operations like EC and BigInt arithmetic. And in case SHA512 is not supported by given JavaCard, its software re-implementation is used.
-
-- [JCMathLib - ECPoint library](https://github.com/OpenCryptoProject/JCMathLib)    ![stars](https://img.shields.io/github/stars/OpenCryptoProject/JCMathLib.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/OpenCryptoProject/JCMathLib.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/OpenCryptoProject/JCMathLib.svg)   <br>
-Provides software re-implementation of low-level operations like ECPoint or BigInteger without any use of proprietary API.
-
-- [JC-SSRK: Sharded Secret Key Reconstruction (SSKR)](https://github.com/proxyco/jc-sskr)  ![stars](https://img.shields.io/github/stars/proxyco/jc-sskr.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/proxyco/jc-sskr.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/proxyco/jc-sskr.svg)   <br>
-An implementation of Sharded Secret Key Reconstruction (SSKR) for JavaCard environments.
-
-- [JavaCardLightweightCiphers](https://github.com/CarpAlberto/JavaCardLightweightCiphers)  ![stars](https://img.shields.io/github/stars/CarpAlberto/JavaCardLightweightCiphers.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/CarpAlberto/JavaCardLightweightCiphers.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/CarpAlberto/JavaCardLightweightCiphers.svg)   <br>
-Implementations JavaCard lightweight ciphers implementations (SHA3, UProve, Twine, ZorroCipher)
-
-- [LibESE Android verified boot](https://github.com/TinkerBoard2-Android/external-libese)    ![stars](https://img.shields.io/github/stars/TinkerBoard2-Android/external-libese.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/TinkerBoard2-Android/external-libese.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/TinkerBoard2-Android/external-libese.svg)   <br>
-Minimal transport wrapper for communicating with embedded secure elements on Android
-
-- [OPACITY auth protocol for JC](https://github.com/shevelevsergey/opacity-for-smartcard)    ![stars](https://img.shields.io/github/stars/shevelevsergey/opacity-for-smartcard.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/shevelevsergey/opacity-for-smartcard.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/shevelevsergey/opacity-for-smartcard.svg) 
-  <br>
-This project is designed to authenticate users to the Web service using contactless smart cards. As an authentication protocol was chosen protocol OPACITY. This protocol has been specifically designed for contactless payments and it is officially registered now as an authentication protocol ISO/IEC 24727-6.
-
-- [OpenTLSSec](https://github.com/halemmerich/opentlssc)    ![stars](https://img.shields.io/github/stars/halemmerich/opentlssc.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/halemmerich/opentlssc.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/halemmerich/opentlssc.svg)   <br>
-Open source java card library for TLS secured communication under GPL v3. (Seems like significant project)
-
-- [Primitives for JavaCard](https://github.com/albertocarp/Primitives_SmartCard)    ![stars](https://img.shields.io/github/stars/albertocarp/Primitives_SmartCard.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/albertocarp/Primitives_SmartCard.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/albertocarp/Primitives_SmartCard.svg)   <br>
-JBigInteger, JCMath, SHA3, UProve...
-
-- [Protocol for Lightweight Authentication of Identity (PLAID)](https://github.com/martinpaljak/AppletPlayground/tree/master/src/plaid804) (**GitHub**) _[last commit 2015]_
-  <br>
-Protocol for Lightweight Authentication of Identity [PLAID](https://www.humanservices.gov.au/corporate/publications-and-resources/protocol-lightweight-authentication-identity-plaid/plaid-reference-implementation-department-human-services), Australian Government
-
-- [SCP10 secure channel and attack](https://github.com/ddealmei/SCP10-attack)    ![stars](https://img.shields.io/github/stars/ddealmei/SCP10-attack.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/ddealmei/SCP10-attack.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/ddealmei/SCP10-attack.svg)   <br>
-Implementation of GlobalPlatform SCP'10 secure channel protocol, PoC attacks against it and fixed version. 
-
-- [Sec2 cloud security project](https://github.com/RUB-NDS/Sec2)    ![stars](https://img.shields.io/github/stars/RUB-NDS/Sec2.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/RUB-NDS/Sec2.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/RUB-NDS/Sec2.svg) 
-  <br>
-message-level security must at least be applied to protect those data during and after the storing process. Novel solution for secure data storage in the cloud. It presents a security concept allowing each client to encrypt outgoing data on one’s mobile device and share it among a defined user group while using a seamless service provision. J. Somorovsky, research proof of the concept
-
-- [Secure Element Evaluation Kit for the Android platform](https://github.com/seek-for-android/pool)    ![stars](https://img.shields.io/github/stars/seek-for-android/pool.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/seek-for-android/pool.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/seek-for-android/pool.svg) 
-  <br>
-SmartCard API for Android. The SmartCard API adds the necessary modules and API’s to the Android platform. It offers flexible access to secure elements, allowing a secure application solution to make use of any secure form factor, such as a USIM card, a secure µSD card, an embedded secure element.
-
 - [Self-Blindable credentials](https://github.com/credentials/sbcred_javacard)    ![stars](https://img.shields.io/github/stars/credentials/sbcred_javacard.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/credentials/sbcred_javacard.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/credentials/sbcred_javacard.svg) 
   <br>
 Java Card implementation of Self-Blindable credentials           
 
-- [SHA3, PBKDF2, TWINE, Zorro, ACORN, AEGIS, ASCON, CLOC, and MORUS AEAD ciphers implementation](https://github.com/crocs-muni/OptimizedJCAlgs)    ![stars](https://img.shields.io/github/stars/crocs-muni/OptimizedJCAlgs.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/crocs-muni/OptimizedJCAlgs.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/crocs-muni/OptimizedJCAlgs.svg)  <br>
-Optimalized implementation of AEGIS, ACORN, ASCON, CLOC, MORUS (Authenticated Encryption), TWINE, Zorro (Block Ciphers), SHA-3 (Message Digest) and PBKDF2 (Key derivation) 
-
 - [SmartCardTLS](https://github.com/gilb/smart_card_TLS)    ![stars](https://img.shields.io/github/stars/gilb/smart_card_TLS.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/gilb/smart_card_TLS.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/gilb/smart_card_TLS.svg)   <br>
 Client implementation of TLS 1.0 in Java Card (tested with Gmail mobile (lightweight version) with the card G&D SmartCafe 3.2)
 
-- [SRP-6a password-authenticated secure channel](https://github.com/mobilesec/secure-channel-srp6a-applet)    ![stars](https://img.shields.io/github/stars/mobilesec/secure-channel-srp6a-applet.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/mobilesec/secure-channel-srp6a-applet.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/mobilesec/secure-channel-srp6a-applet.svg)  <br>
-Java Card applet for SRP-6a password-authenticated secure channel to secure elements/smartcards. This Java Card applet is an implementation of the Secure Remote Password (SRP-6a) password-authenticated secure channel protocol by Wu [1]. In combination with an implementation of an off-card application, such as an Android application using our SRP-6A Android Library, you can establish a secure communication channel that is mutually authenticated with a PIN or password. 
+- [OpenTLSSec](https://github.com/halemmerich/opentlssc)    ![stars](https://img.shields.io/github/stars/halemmerich/opentlssc.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/halemmerich/opentlssc.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/halemmerich/opentlssc.svg)   <br>
+Open source java card library for TLS secured communication under GPL v3. (Seems like significant project)
 
-- [TelephonyManager Carrier Privilege granting](https://github.com/sabtmoha/carrier_privilege)    ![stars](https://img.shields.io/github/stars/sabtmoha/carrier_privilege.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/sabtmoha/carrier_privilege.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/sabtmoha/carrier_privilege.svg) 
+- [ElGamal-based Threshold Scheme for Electronic Elections](https://github.com/CRISES-URV/eVerification-2)    ![stars](https://img.shields.io/github/stars/CRISES-URV/eVerification-2.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/CRISES-URV/eVerification-2.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/CRISES-URV/eVerification-2.svg) 
   <br>
-Since Android 5.1, applications are able to communicate with UICC using the class TelephonyManager. However, the concerned functions require a special privilege, that is the carrier privilege. This JavaCard applet grants this privilege to the app whose signature is included inside the applet (the variable SHA256_SIGN)
-
-- [ykneo-curves](https://github.com/Yubico/ykneo-curves)    ![stars](https://img.shields.io/github/stars/Yubico/ykneo-curves.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/Yubico/ykneo-curves.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/Yubico/ykneo-curves.svg) 
-  <br>
-This is an applet demonstrating several curves for use in YubiKey NEO.
-
+TTP SmartCard-Based ElGamal Cryptosystem Using Threshold Scheme for Electronic Elections. EU Project CRISES group has studied the feasibility of developing ElGamal cryptosystem and Shamir’s secret sharing scheme into JavaCards, whose API gives no support for it. (probably significant applet).
 
 ## Developer tools 
 ### Applet build, upload and management
@@ -821,33 +820,14 @@ KeYmaera 3: A Hybrid Theorem Prover for Hybrid Systems with examples on JavaCard
 Security hardening (duplicate variables, constant branches, transaction detection...) for JavaCard applets based on ANTLR automatic code transformations
 
 ## JavaCard simulators and emulators
-
 - [CAPRunner](https://github.com/benallard/caprunner)    ![stars](https://img.shields.io/github/stars/benallard/caprunner.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/benallard/caprunner.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/benallard/caprunner.svg) 
   <br>
 CAPRunner is a javacard bytecode emulator that is able to execute CAP files. It also comes with an handy runcap.py that bind them together and allow you to send some APDUs to a CAP file (without the need for a smartcard).
 developement on BitBucket
 
-- [FreeJCVM](https://sourceforge.net/projects/freejcvm) (**SourceForge**) _[last commit 2015]_ <br>
-Free javacard vm implementation for AVR MCU.
-
-- [Java Card Simulator via Node.js](https://github.com//abdelhak-mes/javacard-api)    ![stars](https://img.shields.io/github/stars/abdelhak-mes/javacard-api.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/abdelhak-mes/javacard-api.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/abdelhak-mes/javacard-api.svg) 
-  <br>
-This project provides an implementation of a Java Card Runtime Enviornment (JCRE) produced using Node.js which is capable of creating virtual smart card devices and sending APDU commands to the smart card devices for execution via a RESTful API. The project also provides a web-based interface for interacting with the JCRE. 
-
-- [Java Card API](https://github.com/adamnoakes/javacard-simulator)    ![stars](https://img.shields.io/github/stars/adamnoakes/javacard-simulator.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/adamnoakes/javacard-simulator.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/adamnoakes/javacard-simulator.svg) 
-  <br>
-This repository contains an implementation of the Java Card API v.3.0.5 and Global Platform specification v2.3 for education and research purposes.
-
-- [JCardMock](https://github.com/christianhujer/jcardmock)    ![stars](https://img.shields.io/github/stars/christianhujer/jcardmock.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/christianhujer/jcardmock.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/christianhujer/jcardmock.svg) 
-  <br>
-Mock implementation of the Java Card API 3.0.4 in order to test Java Card applet code without a card or simulator. It runs the Java Card API 3.0.4 in a normal Java Virtual Machine. The purpose is to allow for unit tests for Java Card applets with normal test frameworks like JUnit or TestNG in a normal Java Virtual Machine (unfinished)
-
 - [JCardSim:](https://github.com/licel/jcardsim)    ![stars](https://img.shields.io/github/stars/licel/jcardsim.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/licel/jcardsim.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/licel/jcardsim.svg) 
   <br>
 Capable JavaCard simulator implemented atop of BouncyCastle. Very good for unit testing, quick prototyping and educational purposes. Allows for multiple simulated cards in parallel.   
-
-- [openjcvm](https://sourceforge.net/projects/openjcvm/) (**SourceForge**) _[last commit 2015]_ <br>
-A open source java card virtual machine implementation. And also some part of the VM code can be used as part of kinds of tools such as javacard bytecode disassembler.
 
 - [PythonCard - JavaCard under PyPi](https://github.com/benallard/pythoncard)  ![stars](https://img.shields.io/github/stars/benallard/pythoncard.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/benallard/pythoncard.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/benallard/pythoncard.svg) 
   <br>
@@ -857,34 +837,50 @@ JavaCard API simulated in Python environment. The goal is to provide a classic 3
   <br>
 JavaCard remote access. Wraps physically connected JavaCards and virtual JCardSim cards behind REST and WebSocket interface. Enables to connect multiple JavaCards on one host and access them remotely on a different host. Project also integrates with VSmartCard so Android NFC phone can be used as a card reader.
 
-- [Secure Element Emulator](https://github.com/mobilesec/secure-element-emulator)    ![stars](https://img.shields.io/github/stars/mobilesec/secure-element-emulator.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/mobilesec/secure-element-emulator.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/mobilesec/secure-element-emulator.svg) 
+- [JCardMock](https://github.com/christianhujer/jcardmock)    ![stars](https://img.shields.io/github/stars/christianhujer/jcardmock.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/christianhujer/jcardmock.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/christianhujer/jcardmock.svg) 
   <br>
-This project aims at emulating a secure element environment for debugging and rapid-prototyping of secure element applets. It is a fork of the open-source Java Card simulator jCardSim (original source code available here). Within our research we added extensions to emulate an application life-cycle that matches the life-cycle of applications on real smartcard chips.
+Mock implementation of the Java Card API 3.0.4 in order to test Java Card applet code without a card or simulator. It runs the Java Card API 3.0.4 in a normal Java Virtual Machine. The purpose is to allow for unit tests for Java Card applets with normal test frameworks like JUnit or TestNG in a normal Java Virtual Machine (unfinished)
+
+- [Java Card API](https://github.com/adamnoakes/javacard-simulator)    ![stars](https://img.shields.io/github/stars/adamnoakes/javacard-simulator.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/adamnoakes/javacard-simulator.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/adamnoakes/javacard-simulator.svg) 
+  <br>
+This repository contains an implementation of the Java Card API v.3.0.5 and Global Platform specification v2.3 for education and research purposes.
 
 - [vJCRE ](https://github.com/martinpaljak/vJCRE)    ![stars](https://img.shields.io/github/stars/martinpaljak/vJCRE.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/martinpaljak/vJCRE.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/martinpaljak/vJCRE.svg) 
   <br>
 vJCRE is a virtual Java Card Runtime Environment
 
+- [FreeJCVM](https://sourceforge.net/projects/freejcvm) (**SourceForge**) _[last commit 2015]_ <br>
+Free javacard vm implementation for AVR MCU.
+
+- [openjcvm](https://sourceforge.net/projects/openjcvm/) (**SourceForge**) _[last commit 2015]_ <br>
+A open source java card virtual machine implementation. And also some part of the VM code can be used as part of kinds of tools such as javacard bytecode disassembler.
+
+- [Secure Element Emulator](https://github.com/mobilesec/secure-element-emulator)    ![stars](https://img.shields.io/github/stars/mobilesec/secure-element-emulator.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/mobilesec/secure-element-emulator.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/mobilesec/secure-element-emulator.svg) 
+  <br>
+This project aims at emulating a secure element environment for debugging and rapid-prototyping of secure element applets. It is a fork of the open-source Java Card simulator jCardSim (original source code available here). Within our research we added extensions to emulate an application life-cycle that matches the life-cycle of applications on real smartcard chips.
+
+- [Java Card Simulator via Node.js](https://github.com//abdelhak-mes/javacard-api)    ![stars](https://img.shields.io/github/stars/abdelhak-mes/javacard-api.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/abdelhak-mes/javacard-api.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/abdelhak-mes/javacard-api.svg) 
+  <br>
+This project provides an implementation of a Java Card Runtime Enviornment (JCRE) produced using Node.js which is capable of creating virtual smart card devices and sending APDU commands to the smart card devices for execution via a RESTful API. The project also provides a web-based interface for interacting with the JCRE. 
+
 ## Learning (various school projects, simple hello world applets, etc)
+- [HelloSTK2](https://github.com/mrlnc/HelloSTK2)    ![stars](https://img.shields.io/github/stars/mrlnc/HelloSTK2.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/mrlnc/HelloSTK2.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/mrlnc/HelloSTK2.svg) 
+  <br>
+Example Java SIM Toolkit applet updated for ant-javacard.
+
+- [Simple AES encrypt/decrypt](https://github.com/pauksk/nrf6310-pca10007)    ![stars](https://img.shields.io/github/stars/pauksk/nrf6310-pca10007.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/pauksk/nrf6310-pca10007.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/pauksk/nrf6310-pca10007.svg) 
+  <br>
+Master thesis - protection of wireless networks in smart homes using secure hardware
+       
 
 - [AppletPlayground](https://github.com/martinpaljak/AppletPlayground)    ![stars](https://img.shields.io/github/stars/martinpaljak/AppletPlayground.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/martinpaljak/AppletPlayground.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/martinpaljak/AppletPlayground.svg) 
   <br>
 AppletPlayground is an educational repository for getting to know JavaCard development by learning from existing open source software. It includes various open source applets from the internet, bundled into ready to use package. Everything you need to edit, compile and load the applets to real JavaCard-s or test with an emulator.
 
-- [Client applet for CDAX Crypto](https://github.com/marlonbaeten/cdax-crypto-cpp/tree/f3329fcdf348b6a3ddc95b993dbc97b806aea335/applet) (**GitHub**) _[last commit 2014]_  <br>
-The applet with implementation of basic cryptographic functions offered by JavaCard API
-
-- [CryptedBankCard](https://github.com/Herve-M/UQAM-EMB7015)    ![stars](https://img.shields.io/github/stars/Herve-M/UQAM-EMB7015.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/Herve-M/UQAM-EMB7015.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/Herve-M/UQAM-EMB7015.svg) 
+- [Smartcard-Offline-Lock](https://github.com/GeorgesAlkhouri/Smartcard-Offline-Lock)    ![stars](https://img.shields.io/github/stars/GeorgesAlkhouri/Smartcard-Offline-Lock.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/GeorgesAlkhouri/Smartcard-Offline-Lock.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/GeorgesAlkhouri/Smartcard-Offline-Lock.svg) 
   <br>
-The school project with goal to develop a secure banking card.
-
-- [HelloSTK2](https://github.com/mrlnc/HelloSTK2)    ![stars](https://img.shields.io/github/stars/mrlnc/HelloSTK2.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/mrlnc/HelloSTK2.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/mrlnc/HelloSTK2.svg) 
-  <br>
-Example Java SIM Toolkit applet updated for ant-javacard.
-
-- [Hotel Buddy](https://github.com/prayzzz/smartcard)    ![stars](https://img.shields.io/github/stars/prayzzz/smartcard.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/prayzzz/smartcard.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/prayzzz/smartcard.svg) 
-  <br>
-Various JavaCard projects created for a lecture-series. Some PKI.    
+Electronic door locks are commonly used at hotels, exhibitions or public facilities. An offline-operational solution for an electronic lock is required. This is a study project, so please don't expect to much comfort (single DES key used).
+  
 
 - [JavaCard Demo](https://github.com/leowenyang/JCDemo)    ![stars](https://img.shields.io/github/stars/leowenyang/JCDemo.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/leowenyang/JCDemo.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/leowenyang/JCDemo.svg) 
   <br>
@@ -898,6 +894,29 @@ This repository will provide you with javacard applet for absolutely beginners\ 
   <br>
 A small experiment on memory about java card using jcopv2.2.1  
 
+- [CryptedBankCard](https://github.com/Herve-M/UQAM-EMB7015)    ![stars](https://img.shields.io/github/stars/Herve-M/UQAM-EMB7015.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/Herve-M/UQAM-EMB7015.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/Herve-M/UQAM-EMB7015.svg) 
+  <br>
+The school project with goal to develop a secure banking card.
+
+- [Client applet for CDAX Crypto](https://github.com/marlonbaeten/cdax-crypto-cpp/tree/f3329fcdf348b6a3ddc95b993dbc97b806aea335/applet) (**GitHub**) _[last commit 2014]_  <br>
+The applet with implementation of basic cryptographic functions offered by JavaCard API
+
+- [TraninCard applet](https://github.com/TBoonX/sc_traincard)    ![stars](https://img.shields.io/github/stars/TBoonX/sc_traincard.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/TBoonX/sc_traincard.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/TBoonX/sc_traincard.svg) 
+  <br>
+SmartCard - Traincard, No Pain No Gain Project at HTWk Leipzig. 
+
+- [Simple calculator on JavaCard](https://github.com/steff7/javacard-calculator)    ![stars](https://img.shields.io/github/stars/steff7/javacard-calculator.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/steff7/javacard-calculator.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/steff7/javacard-calculator.svg) 
+  <br>
+    
+
+### Archive
+
+_Repositories that are no longer accessible or have been removed._
+
+- [Hotel Buddy](https://github.com/prayzzz/smartcard)    ![stars](https://img.shields.io/github/stars/prayzzz/smartcard.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/prayzzz/smartcard.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/prayzzz/smartcard.svg) 
+  <br>
+Various JavaCard projects created for a lecture-series. Some PKI.    
+
 - [MultiCard](https://github.com/Dragonexodus/MultiCard)    ![stars](https://img.shields.io/github/stars/Dragonexodus/MultiCard.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/Dragonexodus/MultiCard.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/Dragonexodus/MultiCard.svg) 
   <br>
 An school of applied science smartcard project. This project contains offCard and onCard components with various aspects of javacard development.
@@ -905,21 +924,6 @@ An school of applied science smartcard project. This project contains offCard an
 - [SecureChat](https://github.com/sharedbits/JavaChat)    ![stars](https://img.shields.io/github/stars/sharedbits/JavaChat.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/sharedbits/JavaChat.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/sharedbits/JavaChat.svg) 
   <br>
 Secure chat client/server application 
-
-- [Simple AES encrypt/decrypt](https://github.com/pauksk/nrf6310-pca10007)    ![stars](https://img.shields.io/github/stars/pauksk/nrf6310-pca10007.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/pauksk/nrf6310-pca10007.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/pauksk/nrf6310-pca10007.svg) 
-  <br>
-Master thesis - protection of wireless networks in smart homes using secure hardware
-       
-- [Simple calculator on JavaCard](https://github.com/steff7/javacard-calculator)    ![stars](https://img.shields.io/github/stars/steff7/javacard-calculator.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/steff7/javacard-calculator.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/steff7/javacard-calculator.svg) 
-  <br>
-    
-- [Smartcard-Offline-Lock](https://github.com/GeorgesAlkhouri/Smartcard-Offline-Lock)    ![stars](https://img.shields.io/github/stars/GeorgesAlkhouri/Smartcard-Offline-Lock.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/GeorgesAlkhouri/Smartcard-Offline-Lock.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/GeorgesAlkhouri/Smartcard-Offline-Lock.svg) 
-  <br>
-Electronic door locks are commonly used at hotels, exhibitions or public facilities. An offline-operational solution for an electronic lock is required. This is a study project, so please don't expect to much comfort (single DES key used).
-  
-- [TraninCard applet](https://github.com/TBoonX/sc_traincard)    ![stars](https://img.shields.io/github/stars/TBoonX/sc_traincard.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/TBoonX/sc_traincard.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/TBoonX/sc_traincard.svg) 
-  <br>
-SmartCard - Traincard, No Pain No Gain Project at HTWk Leipzig. 
 
 ## Unsorted
 
